@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+table{
+    border: 1px solid red
+
+/* .counter{
+    display: flex;
+    justify-self: center;
+    align-items: center;   
+    margin: 100px 100px;
+
+}
+
+.plus,.minus{
+    width: 30px;
+    height: 30px;
+
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid red;
+}
+
+input{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid red;
+    -moz-appearance: textfield;
+    appearance: none;
+    -webkit-appearance: none;
+} */
+/* .wrapper{
+    width: 80%;
+    height: auto;
+
+    margin: 200px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px , 1fr));
+    gap: 40px;
+}
+
+.mini-box{
+    position: relative;
+
+    height: 270px;
+    border: 1px solid red;
+}
+
+.mini-box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.mini-box a{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 50%;
+}
+.title h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.title  span{
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.shop-btn{
+    position: relative;
+    padding-bottom: 2px;
+    overflow: hidden;
+}
+
+.shop-btn::after{
+    content: "";
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    background-color: red;
+    transform: scale(0);
+    opacity: 0;
+    transition: ease .5s;
+}
+.shop-btn > div{
+    transform: scaleX(0) translateY(200%);
+    transition:  ease .5s;
+}  
+
+.mini-box:hover .shop-btn::after{
+    opacity: 1;
+    transform: scale(1);
+}
+.mini-box:hover .shop-btn > div{
+    transform: scaleX(1) translateY(0);
+    transition-delay: .2s;  
+} */
+
+
+/* .shop-btn{
+    position: relative;
+    height: 2rem;
+}
+.shop-btn::after{
+    width: 100%;
+    height: 3px;
+    content: ''; 
+    position: absolute; 
+    bottom: -5px;
+    left: 0;
+    background-color: red;
+    transform:  scaleX(0);
+    transition: ease-in-out .3s;
+    border: none;
+    z-index: 99;
+}
+.mini-box:hover .shop-btn::after{
+    transform: scaleX(0);
+} */

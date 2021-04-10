@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- google font poppins -->
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- reset css -->
+    <link rel="stylesheet" href="./css/resetcss.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/customStyle.css">
+</head>
+
+<body>
+
+    <!-- nav bar -->
+    <div class="fixed-top-section navbar" id="navbar"  style="border-bottom: 1px solid #888;">
+        <div class="navbar container">
+            <a class="logo">
+                <img src="./img/logo-01.webp" alt="">
+            </a>
+
+            <div>
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="home.html" class="nav__link icon-hv">Home</a></li>
+                    <li class="nav__item"><a href="shop.html" class="nav__link icon-hv">Shop</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link icon-hv">Features</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link icon-hv">Blog</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link icon-hv">About</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link icon-hv">Contact</a></li>
+                </ul>
+            </div>
+            <div class="navabout">
+                <div id="navbar__search" class="navabout__item icon-hv">
+                    <i class="fal fa-search"></i>
+                    <div class="navbar__search-sec" style="display: none;">
+                        <input type="text">
+                    </div>
+                </div>
+                <div id="navbar__cart" class="navabout__item icon-hv">
+                    <i class="fal fa-shopping-cart"></i>
+                </div>
+                <div id="navbar__loved" class="navabout__item icon-hv">
+                    <i class="far fa-heart"></i>
+                </div>
+                <div id="navbar__profi" class="navabout__item">
+                    <img src="./img/mainbgc.png" alt="">
+                </div>
+            </div>
+            <!-- button scroll on top -->
+            <div id="ontop">
+                <i class="far fa-chevron-up"></i>
+            </div>
+        </div>
+    </div>
+    <!-- product over view section -->
+    <div class="product-overview" style="margin: 10rem 0 5rem 0;">
+        <div class="container overview">
+            <!-- title -->
+            <div class="title" style="display: none;">
+                <h2>Product overview</h2>
+            </div>
+            <!-- section bar -->
+            <div class="ov-select-bar">
+                <div class="menu">
+                    <div class="item bottom-line">
+                        <span>All Product</span>
+                    </div>
+
+                    <div class="item">
+                        <span>Men</span>
+                    </div>
+
+                    <div class="item">
+                        <span>Women</span>
+                    </div>
+
+                    <div class="item">
+                        <span>Shoes</span>
+                    </div>
+
+                    <div class="item">
+                        <span>Watches</span>
+                    </div>
+                </div>
+
+                <div class="setting">
+                    <div class="set-btn bg-hover" id="filter">
+                        <span><i class="fas fa-filter"></i> Filter</span>
+                    </div>
+
+                    <div class="set-btn bg-hover" id="search">
+                        <span><i class="far fa-search"></i> Search</span>
+                    </div>
+                </div>
+            </div>
+            <!-- products -->
+            <div class="ov-products">
+                <div class="ov-box">
+                    <div class="ov-box-img">
+                        <img src="./img/product-01.jpg" alt="">
+                        <div class="ov-quickview">
+                            <span>Quick View</span>
+                        </div>
+                    </div>
+                    <div class="ov-box-info">
+                        <div class="ov-title">
+                            <h2 class="ov-name">Esprit Ruffle Shirt</h2>
+                            <i class="far fa-heart ov-react"></i>
+                        </div>
+                        <span class="ov-price">$16.64</span>
+                    </div>
+                </div>
+
+                <div class="ov-box">
+                    <div class="ov-box-img">
+                        <img src="./img/product-02.jpg" alt="">
+                        <div class="ov-quickview">
+                            <span>Quick View</span>
+                        </div>
+                    </div>
+                    <div class="ov-box-info">
+                        <div class="ov-title">
+                            <h2 class="ov-name">Esprit Ruffle Shirt</h2>
+                            <i class="far fa-heart ov-react"></i>
+                        </div>
+                        <span class="ov-price">$16.64</span>
+                    </div>
+                </div>
+
+                <div class="ov-box">
+                    <div class="ov-box-img">
+                        <img src="./img/product-03.jpg" alt="">
+                        <div class="ov-quickview">
+                            <span>Quick View</span>
+                        </div>
+                    </div>
+                    <div class="ov-box-info">
+                        <div class="ov-title">
+                            <h2 class="ov-name">Esprit Ruffle Shirt</h2>
+                            <i class="far fa-heart ov-react"></i>
+                        </div>
+                        <span class="ov-price">$16.64</span>
+                    </div>
+                </div>
+
+                <div class="ov-box">
+                    <div class="ov-box-img">
+                        <img src="./img/product-04.jpg" alt="">
+                        <div class="ov-quickview">
+                            <span>Quick View</span>
+                        </div>
+                    </div>
+                    <div class="ov-box-info">
+                        <div class="ov-title">
+                            <h2 class="ov-name">Esprit Ruffle Shirt</h2>
+                            <i class="far fa-heart ov-react"></i>
+                        </div>
+                        <span class="ov-price">$16.64</span>
+                    </div>
+                </div>
+
+                <div class="ov-box">
+                    <div class="ov-box-img">
+                        <img src="./img/product-05.jpg" alt="">
+                        <div class="ov-quickview">
+                            <span>Quick View</span>
+                        </div>
+                    </div>
+                    <div class="ov-box-info">
+                        <div class="ov-title">
+                            <h2 class="ov-name">Esprit Ruffle Shirt</h2>
+                            <i class="far fa-heart ov-react"></i>
+                        </div>
+                        <span class="ov-price">$16.64</span>
+                    </div>
+                </div>
+
+                <div class="ov-box">
+                    <div class="ov-box-img">
+                        <img src="./img/product-06.jpg" alt="">
+                        <div class="ov-quickview">
+                            <span>Quick View</span>
+                        </div>
+                    </div>
+                    <div class="ov-box-info">
+                        <div class="ov-title">
+                            <h2 class="ov-name">Esprit Ruffle Shirt</h2>
+                            <i class="far fa-heart ov-react"></i>
+                        </div>
+                        <span class="ov-price">$16.64</span>
+                    </div>
+                </div>
+
+                <div class="ov-box">
+                    <div class="ov-box-img">
+                        <img src="./img/product-03.jpg" alt="">
+                        <div class="ov-quickview">
+                            <span>Quick View</span>
+                        </div>
+                    </div>
+                    <div class="ov-box-info">
+                        <div class="ov-title">
+                            <h2 class="ov-name">Esprit Ruffle Shirt</h2>
+                            <i class="far fa-heart ov-react"></i>
+                        </div>
+                        <span class="ov-price">$16.64</span>
+                    </div>
+                </div>
+
+                <div class="ov-box">
+                    <div class="ov-box-img">
+                        <img src="./img/product-01.jpg" alt="">
+                        <div class="ov-quickview">
+                            <span>Quick View</span>
+                        </div>
+                    </div>
+                    <div class="ov-box-info">
+                        <div class="ov-title">
+                            <h2 class="ov-name">Esprit Ruffle Shirt</h2>
+                            <i class="far fa-heart ov-react"></i>
+                        </div>
+                        <span class="ov-price">$16.64</span>
+                    </div>
+                </div>
+                <div class="ov-box">
+                    <div class="ov-box-img">
+                        <img src="./img/product-07.jpg" alt="">
+                        <div class="ov-quickview">
+                            <span>Quick View</span>
+                        </div>
+                    </div>
+                    <div class="ov-box-info">
+                        <div class="ov-title">
+                            <h2 class="ov-name">Esprit Ruffle Shirt</h2>
+                            <i class="far fa-heart ov-react"></i>
+                        </div>
+                        <span class="ov-price">$16.64</span>
+                    </div>
+                </div>
+
+                <div class="ov-box">
+                    <div class="ov-box-img">
+                        <img src="./img/product-05.jpg" alt="">
+                        <div class="ov-quickview">
+                            <span>Quick View</span>
+                        </div>
+                    </div>
+                    <div class="ov-box-info">
+                        <div class="ov-title">
+                            <h2 class="ov-name">Esprit Ruffle Shirt</h2>
+                            <i class="far fa-heart ov-react"></i>
+                        </div>
+                        <span class="ov-price">$16.64</span>
+                    </div>
+                </div>
+
+                <div class="ov-box">
+                    <div class="ov-box-img">
+                        <img src="./img/product-02.jpg" alt="">
+                        <div class="ov-quickview">
+                            <span>Quick View</span>
+                        </div>
+                    </div>
+                    <div class="ov-box-info">
+                        <div class="ov-title">
+                            <h2 class="ov-name">Esprit Ruffle Shirt</h2>
+                            <i class="far fa-heart ov-react"></i>
+                        </div>
+                        <span class="ov-price">$16.64</span>
+                    </div>
+                </div>
+
+                <div class="ov-box">
+                    <div class="ov-box-img">
+                        <img src="./img/product-03.jpg" alt="">
+                        <div class="ov-quickview">
+                            <span>Quick View</span>
+                        </div>
+                    </div>
+                    <div class="ov-box-info">
+                        <div class="ov-title">
+                            <h2 class="ov-name">Esprit Ruffle Shirt</h2>
+                            <i class="far fa-heart ov-react"></i>
+                        </div>
+                        <span class="ov-price">$16.64</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer__wrapper">
+        <div class="container footer">
+            <div class="f-box">
+                <h2 class="f-box-title">CATEGORIES</h2>
+                <div class="f-box-content">
+                    <a href="#" class="link">Women</a>
+                    <a href="#" class="link">Men</a>
+                    <a href="#" class="link">Shoes</a>
+                    <a href="#" class="link">Watches</a>
+                </div>
+            </div>
+
+            <div class="f-box">
+                <h2 class="f-box-title">HELP</h2>
+                <div class="f-box-content">
+                    <a href="#" class="link">Track Order</a>
+                    <a href="#" class="link">Returns</a>
+                    <a href="#" class="link">Shipping</a>
+                    <a href="#" class="link">FAQs</a>
+                </div>
+            </div>
+
+            <div class="f-box">
+                <h2 class="f-box-title">GET IN TOUCH</h2>
+                <div class="f-box-content">
+                    <p>Any questions? Let us know in store at 8th floor, 379 Hudson St, New York, NY 10018 or call us on (+1) 96 716 6879</p>
+                    <div class="f-social">
+                        <a href="#" class="link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="link"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="f-box">
+                <h2 class="f-box-title">NEWSLETTER</h2>
+                <div class="f-box-content">
+                        <input type="email" placeholder="email@email.com">
+                        <a href="#" class="button-primary f-button">SUBCRIBE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="cart__wrapper">
+            <div id='cart' class="cart">
+                <div class="cart-header">
+                    <h2>Your cart</h2>
+                    <button id="close-cart"><i class="fas fa-times"></i></button>
+                </div>
+        
+                <div class="products">
+                    <div class="product-box">
+                        <div class="p-img">
+                            <img src="./img/product-01.jpg" alt="">
+                        </div>
+                        <div class="p-info">
+                            <a href="" class="p-name">White Shirt Pleat</a>
+                            <span class="p-price">1 x $19.00</span>
+                        </div>
+                    </div>
+        
+                    <div class="product-box">
+                        <div class="p-img">
+                            <img src="./img/product-02.jpg" alt="">
+                        </div>
+                        <div class="p-info">
+                            <a href="" class="p-name">White Shirt Pleat</a>
+                            <span class="p-price">1 x $19.00</span>
+                        </div>
+                    </div>
+
+                    <div class="product-box">
+                        <div class="p-img">
+                            <img src="./img/product-02.jpg" alt="">
+                        </div>
+                        <div class="p-info">
+                            <a href="" class="p-name">White Shirt Pleat</a>
+                            <span class="p-price">1 x $19.00</span>
+                        </div>
+                    </div>
+
+                    <div class="product-box">
+                        <div class="p-img">
+                            <img src="./img/product-02.jpg" alt="">
+                        </div>
+                        <div class="p-info">
+                            <a href="" class="p-name">White Shirt Pleat</a>
+                            <span class="p-price">1 x $19.00</span>
+                        </div>
+                    </div>
+
+                    <div class="product-box">
+                        <div class="p-img">
+                            <img src="./img/product-02.jpg" alt="">
+                        </div>
+                        <div class="p-info">
+                            <a href="" class="p-name">White Shirt Pleat</a>
+                            <span class="p-price">1 x $19.00</span>
+                        </div>
+                    </div>
+        
+                    <div class="product-box">
+                        <div class="p-img">
+                            <img src="./img/product-03.jpg" alt="">
+                        </div>
+                        <div class="p-info">
+                            <a href="" class="p-name">White Shirt Pleat</a>
+                            <span class="p-price">1 x $19.00</span>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="cart-options">
+                    <span class="totals">$75.00</span>
+        
+                    <div class="cart-buttons">
+                        <a href="#" class="button-third">View Cart</a>
+                        <a href="#" class="button-third">Check Out</a>
+                    </div>
+                </div>
+            </div>
+            <div id="over-lay"></div>
+    </section>
+
+    <script src="./js/commonjs.js"></script>
+</body>
+
+</html>
